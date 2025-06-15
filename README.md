@@ -259,9 +259,7 @@ Once the stream server is running, open:
   ```
    python collect_read_fram.py
   ```
-  ```
-  cd ..
-  ```
+
   - Sends video frames to RabbitMQ.
   - and then go to **the second terminal** and write this command to rune collect_detect_vaiolation.py
 9. Run Detection + Violation Tracker
@@ -271,15 +269,12 @@ Once the stream server is running, open:
    ```
     python collect_detect_vaiolation.py
    ```
-  ```
-      cd ..
-  ```
 
 
 On first frame, a window opens for you to draw ROI areas.
 
 Starts object detection, tracking, and violation checking.
- - and then go to the third terminal and write this command to run stream_serv.py
+ - and then go to **the third terminal** and write this command to run stream_serv.py
 10. Run Streaming Service
   ```
   cd Streaming
@@ -287,7 +282,5 @@ Starts object detection, tracking, and violation checking.
    ```
     python stream_serv.py
    ```
-   ```
-      cd ..
-   ```
+
 Opens a Flask web server on http://localhost:5000
