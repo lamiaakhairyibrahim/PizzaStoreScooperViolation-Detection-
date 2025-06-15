@@ -243,6 +243,9 @@ Once the stream server is running, open:
     git clone https://github.com/lamiaakhairyibrahim/PizzaStoreScooperViolation-Detection-
     ```
 7. install the required dependencies:
+    ``` 
+    cd PizzaStoreScooperViolation-Detection-
+    ```
     ```Bash 
     pip install -r requirements.txt
     ```
