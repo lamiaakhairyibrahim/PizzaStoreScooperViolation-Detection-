@@ -240,7 +240,7 @@ Once the stream server is running, open:
     ```
 6. Colne this repository:
     ```Bash
-    git clone https://github.com/lamiaakhairyibrahim/PizzaStoreScooperViolationDetection-
+    git clone https://github.com/lamiaakhairyibrahim/PizzaStoreScooperViolation-Detection-
     ```
 7. install the required dependencies:
     ```Bash 
