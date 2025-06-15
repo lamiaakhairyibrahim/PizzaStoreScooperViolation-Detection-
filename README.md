@@ -276,6 +276,7 @@ On first frame, a window opens for you to draw ROI areas.
 Starts object detection, tracking, and violation checking.
  - and then go to **the third terminal** and write this command to run stream_serv.py
 10. Run Streaming Service
+ - Opens a Flask web server on http://localhost:5000
   ```
   cd Streaming
   ```
@@ -283,4 +284,3 @@ Starts object detection, tracking, and violation checking.
     python stream_serv.py
    ```
 
-Opens a Flask web server on http://localhost:5000
