@@ -269,7 +269,7 @@ Once the stream server is running, open:
    ```
     python collect_detect_vaiolation.py
    ```
-
+    - Here, select the ROIs' locations you need , manual by you mouse
 
 On first frame, a window opens for you to draw ROI areas.
 
